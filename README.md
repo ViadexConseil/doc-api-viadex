@@ -204,23 +204,3 @@ if (in_array($route, $allowedRoutes)) {
 ### DELETE `/blograw?id=5`
 
 - Supprime un article brut.
-
----
-
-### 🖥️ Accès FTP via l’espace client OVH
-
-Pour modifier les fichiers backend directement via l’interface OVH :
-
-1. Aller sur https://www.ovhcloud.com/manager
-2. Se connecter à son compte OVH.
-3. Dans le menu de gauche : **Web Cloud** → **Hébergement**
-4. Cliquer sur le domaine (ex: `dev.viadex.fr`)
-5. Aller dans l’onglet **FTP-SSH**
-6. Vous y verrez vos identifiants FTP (login, hôte FTP...)
-7. Pour accéder aux fichiers :
-    - Cliquer sur les **trois petits points** à droite du domaine
-    - Puis sur **“Explorateur de fichiers”**
-
-Vous pouvez alors naviguer dans `/www/` pour modifier les fichiers comme `index.php`, `routes/`, etc.
-
-Besoin de réinitialiser le mot de passe FTP ? Faites-le dans l’onglet **FTP-SSH** de l’hébergement.
